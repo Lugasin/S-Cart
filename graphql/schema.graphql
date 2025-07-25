@@ -1,0 +1,25 @@
+type Product {
+    id: ID!
+    name: String!
+    sku: String!
+    price: Float!
+    description: String
+    created_at: String!
+    updated_at: String!
+}
+
+type Category {
+    id: ID!
+    name: String!
+    slug: String!
+    description: String
+    created_at: String!
+    updated_at: String!
+}
+
+type Query {
+    products: [Product!]! @all
+    product(id: ID @eq): Product @find
+    categories: [Category!]! @all
+    category(id: ID @eq): Category @find
+}

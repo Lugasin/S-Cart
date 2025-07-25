@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\GP247\Plugins\DeliveryFleet\Models;
+namespace App\GP247\Plugins\DeliveryFleet\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
