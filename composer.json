@@ -17,7 +17,9 @@
         "gp247/front": "^1.1.16",
         "gp247/shop": "^1.1.11",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "mll-lab/laravel-graphql-playground": "^1.1",
+        "nuwave/lighthouse": "^6.62"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.15",
@@ -33,7 +35,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "App\\GP247\\Plugins\\DeliveryFleet\\": "app/GP247/Plugins/DeliveryFleet/src/"
         }
     },
     "autoload-dev": {
